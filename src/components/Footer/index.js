@@ -1,11 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "@/assets/myAzaLogo.png";
+import Logo from "../../assets/myAzaLogo.png";
 import Twitter from "../../../public/icons/twitter.png"
 import Linkedin from "../../../public/icons/linkedin.png"
 import Instagram from "../../../public/icons/instagram.png"
 import Facebook from "../../../public/icons/facebook.png"
-// import {FaLinkedin, FaXTwitter } from "react-icons/fa6";
 function Footer() {
   return (
     <div>

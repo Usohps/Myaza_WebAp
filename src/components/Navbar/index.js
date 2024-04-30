@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "@/assets/myAzaLogo.png";
+import Logo from "../../assets/myAzaLogo.png";
 import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";
 function Navbar() {

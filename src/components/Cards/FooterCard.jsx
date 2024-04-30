@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Iphone_Image from "@/assets/iPhone13pro.png";
-import Vector from "@/assets/Vector.png"
-import Applestore from "@/assets/App Store.png"
-import PlayStore from "@/assets/Play Store.png"
-import WebLogo from "@/assets/web.png"
+import IphoneImage from "../../assets/iPhone13pro.png";
+import Vector from "../../assets/Vector.png"
+import Applestore from "../../assets/App Store.png"
+import PlayStore from "../../assets/Play Store.png"
+import WebLogo from "../../assets/web.png"
 function FooterCard() {
   return (
     <div className="bg-[url('../assets/footerbg.png')] flex md:flex-row flex-col justify-between  md:container min-h-64 m-auto p-6 md:rounded-3xl h-auto bg-black">
@@ -21,7 +21,7 @@ function FooterCard() {
         </div>
       </div>
       <div className="flex flex-col mt-6 border">
-        <Image src={Iphone_Image} alt="iphone13 photo" />
+        <Image src={IphoneImage} alt="iphone13 photo" />
       </div>
     </div>
   );
