@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navmodal() {
   return (
-    <div>Navmodal</div>
+    <div className=''></div>
   )
 }
 
