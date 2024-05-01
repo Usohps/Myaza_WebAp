@@ -1,10 +1,12 @@
+"use client"
 import React from "react";
 import Logo from "../../assets/myAzaLogo.png";
 import Image from "next/image";
 import { RxHamburgerMenu } from "react-icons/rx";
+import Navmodal from "../modals/Navmodal";
 function Navbar() {
   return (
-    <div>
+    <div className="relative">
       <div className="fixed top-0 right-0 w-full z-[60] shadow-md bg-white py-4 sm:py-4">
         <div className="">
           <div className="flex md:justify-around justify-between px-7 md:px-0 items-center">
@@ -41,7 +43,9 @@ function Navbar() {
           </div>
         </div>
       </div>
+      <Navmodal/>
     </div>
+
   );
 }
 
