@@ -1,12 +1,12 @@
 "use client";
 // import Link from 'next/link'
 import React, { useState } from "react";
-import MobileLogo from "@/assets/Frame 437.png";
+import MobileLogo from "@/assets/Frame437.png";
 import Image from "next/image";
-import Twitter from "../../assets/twitter.png";
-import Linkedin from "../../assets/linkedin.png";
-import Instagram from "../../assets/instagram.png";
-import Facebook from "../../assets/facebook.png";
+import Twitter from "@/assets/twitter.png";
+import Linkedin from "@/assets/linkedin.png";
+import Instagram from "@/assets/instagram.png";
+import Facebook from "@/assets/facebook.png";
 import Link from "next/link";
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai";
 function Navmodal() {

@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import Logo from "../../assets/myAzaLogo.png";
-import Twitter from "../../../public/icons/twitter.png"
-import Linkedin from "../../../public/icons/linkedin.png"
-import Instagram from "../../../public/icons/instagram.png"
-import Facebook from "../../../public/icons/facebook.png"
+import Logo from "@/assets/myAzaLogo.png";
+import Twitter from "@/assets/icons/twitter.png"
+import Linkedin from "@/assets/icons/linkedin.png"
+import Instagram from "@/assets/icons/instagram.png"
+import Facebook from "@/assets/icons/facebook.png"
 function Footer() {
   return (
     <div>

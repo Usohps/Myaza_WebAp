@@ -1,14 +1,9 @@
-import FooterCard from "@/components/Cards/FooterCard";
-import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
-import Navbar from "@/components/Navbar";
-export default function Home() {
+import Home from "@/app/pages/Home";
+
+export default function Index() {
   return (
     <main>
-      <Navbar/>
-      <Hero/>
-      <FooterCard/>
-      <Footer/>
+      <Home/>
     </main>
   );
 }

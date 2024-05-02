@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import IphoneImage from "../../assets/iPhone13Pro.png";
-import Vector from "../../assets/Vector.png"
-import Applestore from "../../assets/App Store.png"
-import PlayStore from "../../assets/Play Store.png"
-import WebLogo from "../../assets/web.png"
+import IphoneImage from "@/assets/iPhone13Pro.png";
+import Vector from "@/assets/Vector.png"
+import Applestore from "@/assets/App Store.png"
+import PlayStore from "@/assets/Play Store.png"
+import WebLogo from "@/assets/web.png"
 function FooterCard() {
   return (
     <div className="bg-[url('../assets/footerbg.png')] flex md:flex-row flex-col justify-between  md:container min-h-64 m-auto p-6 md:rounded-3xl h-auto bg-black">
