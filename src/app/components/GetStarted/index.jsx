@@ -8,7 +8,7 @@ function index() {
     <div className="border relative">
       <div className="container m-auto text-center p-4">
         <p className=" text-sm from-[#9666FF] to-[#5645F5]">Want to join us?</p>
-        <div className=" md:w-1/3 w-1/2 m-auto">
+        <div className=" md:w-1/3 m-auto">
           <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
             Get started in three easy steps
           </h1>
@@ -28,7 +28,7 @@ function index() {
             </p>
           </div>
           <div className="p-2 md:p-0">
-          <p className="text-[#302D53] text-sm leading-6">
+          <p className="text-[#302D53] text-sm leading-8">
             Find the Aza app in the App Store (for Apple devices) or the Play
             Store (for Android devices). You can search for the app or follow a
             link to the app&apos;s page.
@@ -45,7 +45,7 @@ function index() {
             </p>
           </div>
           <div className="p-2 md:p-0">
-          <p className="text-[#302D53] text-sm leading-6">
+          <p className="text-[#302D53] text-sm leading-8">
             Install the app on your device by tapping the &#34;Install button and
             waiting for the download process to complete. Depending on your
             device and internet connection, this may take a few minutes.
@@ -62,7 +62,7 @@ function index() {
             </p>
           </div>
          <div className="p-2 md:p-0">
-         <p className="text-[#302D53] text-sm leading-6 ">
+         <p className="text-[#302D53] text-sm leading-8 ">
             Once the app is installed, launch it and register for a new account
             or log in to your existing account to access all of the features and
             benefits of Aza.

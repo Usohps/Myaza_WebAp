@@ -12,7 +12,7 @@ function Footer() {
         <section className="max-w-[1200px] mx-auto">
           <div className="flex flex-col md:flex-row  justify-between px-3 py-5 ">
             {/* first col */}
-            <div className="py-8 px-4 space-y-3">
+            <div className="py-8 px-4 space-y-3 leading-8">
               <Image src={Logo} alt="company logo" className="w-24" />
               <p>
                 Aza Technologies is a financial platform for the people by the
@@ -93,15 +93,14 @@ function Footer() {
           </div>
           <div className="sm:block">
             <hr className="md:hidden container w-full px-4 border-gray-400"></hr>
-            <div className=" text-sm text-center space-y-4 p-4 md:border-t-2 border-gray-400 ">
+            <div className=" text-sm md:text-center  leading-8 space-y-4 p-6 md:border-t-2 border-gray-400 ">
               <p>
-                Myaza’s services are provided by FlitStack LTD. FlitStack is a
+                Myaza&apos;s services are provided by FlitStack LTD. FlitStack is a
                 Financial Technology company. FlitStack offers its products and
                 services in partnership with licensed transmitters in their
                 respective jurisdictions. Copyright ©️ Myaza. 2022
               </p>
               <div>
-                {" "}
                 <p>Designed with ❤️ & Caprisun</p>
               </div>
             </div>
