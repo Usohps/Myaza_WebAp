@@ -31,7 +31,7 @@ function index() {
           <p className="text-[#302D53] text-sm leading-6">
             Find the Aza app in the App Store (for Apple devices) or the Play
             Store (for Android devices). You can search for the app or follow a
-            link to the app's page.
+            link to the app&apos;s page.
           </p>
           </div>
         </div>
@@ -46,7 +46,7 @@ function index() {
           </div>
           <div className="p-2 md:p-0">
           <p className="text-[#302D53] text-sm leading-6">
-            Install the app on your device by tapping the 'Install' button and
+            Install the app on your device by tapping the &#34;Install button and
             waiting for the download process to complete. Depending on your
             device and internet connection, this may take a few minutes.
           </p>
