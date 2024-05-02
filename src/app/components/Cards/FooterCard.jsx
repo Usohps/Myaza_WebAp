@@ -7,7 +7,7 @@ import PlayStore from "@/assets/Play Store.png"
 import WebLogo from "@/assets/web.png"
 function FooterCard() {
   return (
-    <div className="bg-[url('../assets/footerbg.png')] flex md:flex-row flex-col justify-between  md:container min-h-64 m-auto p-6 md:rounded-3xl h-auto bg-black">
+    <div className="bg-[url('../assets/footerbg.png')] flex md:flex-row flex-col justify-between  min-h-64 m-auto px-6 md:rounded-3xl h-auto bg-black">
       <div className="text-center space-y-4 pt-12">
         <h1 className="text-3xl min-[300px]: md:text-4xl text-white font-bold px-4">
           Ready to join the <br/>Geng? Sign up today!

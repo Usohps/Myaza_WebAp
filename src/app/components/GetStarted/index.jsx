@@ -5,7 +5,7 @@ import Arrow2 from "@/assets/step2.png"
 import Arrow3 from "@/assets/mobileicon.png"
 function index() {
   return (
-    <div className="border relative">
+    <div className="md:max-w-[1130px] m-auto border relative">
       <div className="container m-auto text-center p-4">
         <p className=" text-sm from-[#9666FF] to-[#5645F5]">Want to join us?</p>
         <div className=" md:w-1/3 m-auto">

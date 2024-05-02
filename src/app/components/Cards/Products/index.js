@@ -41,8 +41,8 @@ function index() {
           </div>
         </div>
         {/* cards inbetween the cards big on desktop */}
-        <div className="flex gap-7 items-start md:flex-row flex-col space-y-6">
-          <div className="bg-[url('../assets/grainTexture.png')] bg-[#95DBC4] flex items-center flex-col justify-between md:m-auto container  rounded-xl ">
+        <div className="flex gap-4 items-center md:flex-row flex-col space-y-6">
+          <div className="bg-[url('../assets/grainTexture.png')] bg-[#95DBC4] flex items-center flex-col justify-between md:m-auto  rounded-xl ">
             <div className="">
               <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
                 Want to receive money from loved ones?
@@ -58,8 +58,8 @@ function index() {
               <Image src={Mockup1} alt="sample image" width={200} />
             </div>
           </div>
-          <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FFADD2] flex flex-col items-center justify-between md:m-auto container  rounded-xl">
-            <div className="">
+          <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FFADD2] flex flex-col items-center justify-between md:m-auto  rounded-xl">
+            <div className=" space-y-3">
               <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
                 Fast and Hassle-free money transfer!
               </h1>
@@ -69,15 +69,15 @@ function index() {
                 securely, faster than many other platforms
               </p>
             </div>
-            <div className="flex flex-col justify-end relative p-3">
+            <div className="flex flex-col justify-end relative">
               <Image src={Mockup2} alt="sample image" width={200} />
               <Image src={ExchangeIcon} width={50} className="absolute right-0 top-0"  alt="icon for exchange"/>
             </div>
           </div>
         </div>
         {/* Second big card below */}
-        <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FECCAE] flex items-center md:flex-row flex-col justify-between md:m-auto container  rounded-xl  border p-12">
-          <div className="md:w-1/2">
+        <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FECCAE] flex items-center md:flex-row flex-col justify-between md:m-auto container  rounded-xl md:p-12 p-4">
+          <div className="md:w-1/2 space-y-3">
             <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
               Send and receive money for FREE with your Aza-Tag!
             </h1>
