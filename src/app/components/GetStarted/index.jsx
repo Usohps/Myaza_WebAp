@@ -17,7 +17,7 @@ function index() {
           Setting up Aza is easy. Follow the steps below to get started
         </p>
       </div>
-      <section className="flex container m-auto md:flex-row flex-col items-center gap-6 justify-center p-4">
+      <section className="flex container m-auto md:flex-row flex-col items-center gap-6 justify-center p-6">
         <div className="md:w-1/3 container m-auto md:m-0 space-y-3">
           <div className="md:w-9 md:h-9 w-6 h-6 md:text-2xl text-xl p-2 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#CAC5FC] ">
             <p>1</p>

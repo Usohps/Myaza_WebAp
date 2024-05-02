@@ -7,7 +7,7 @@ import ExchangeIcon from "@/assets/ExchangeIcon.png";
 import Image from "next/image";
 function index() {
   return (
-    <div>
+    <div className="md:max-w-[1130px] m-auto">
       <section className="container m-auto px-6 space-y-4">
         <div className="container m-auto text-center ">
           <p className=" text-sm from-[#9666FF] to-[#5645F5]">Our products</p>
@@ -42,7 +42,7 @@ function index() {
         </div>
         {/* cards inbetween the cards big on desktop */}
         <div className="flex gap-7 items-start md:flex-row flex-col space-y-6">
-          <div className="bg-[url('../assets/grainTexture.png')] bg-[#95DBC4] flex items-center flex-col justify-between md:m-auto container  rounded-xl p-4  border">
+          <div className="bg-[url('../assets/grainTexture.png')] bg-[#95DBC4] flex items-center flex-col justify-between md:m-auto container  rounded-xl ">
             <div className="">
               <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
                 Want to receive money from loved ones?
@@ -58,7 +58,7 @@ function index() {
               <Image src={Mockup1} alt="sample image" width={200} />
             </div>
           </div>
-          <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FFADD2] flex flex-col items-center justify-between md:m-auto container  rounded-xl  border p-4">
+          <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FFADD2] flex flex-col items-center justify-between md:m-auto container  rounded-xl">
             <div className="">
               <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
                 Fast and Hassle-free money transfer!
@@ -76,7 +76,7 @@ function index() {
           </div>
         </div>
         {/* Second big card below */}
-        <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FECCAE] flex items-center md:flex-row flex-col justify-between md:m-auto container  rounded-xl  border p-4">
+        <div className=" bg-[url('../assets/grainTexture.png')] bg-[#FECCAE] flex items-center md:flex-row flex-col justify-between md:m-auto container  rounded-xl  border p-12">
           <div className="md:w-1/2">
             <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
               Send and receive money for FREE with your Aza-Tag!

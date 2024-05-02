@@ -38,7 +38,7 @@ function Navbar() {
               </button>
             </div>
             <div className="md:hidden">
-              <RxHamburgerMenu />
+              <RxHamburgerMenu width={200} />
             </div>
           </div>
         </div>
