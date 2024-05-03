@@ -1,8 +1,8 @@
 import Image from "next/image";
 import React from "react";
-import Arrow1 from "@/assets/step1.png"
-import Arrow2 from "@/assets/step2.png"
-import Arrow3 from "@/assets/mobileicon.png"
+import Arrow1 from "@/assets/step1.png";
+import Arrow2 from "@/assets/step2.png";
+import Arrow3 from "@/assets/mobileicon.png";
 function index() {
   return (
     <div className="md:max-w-[1130px] m-auto border relative">
@@ -28,11 +28,11 @@ function index() {
             </p>
           </div>
           <div className="p-2 md:p-0">
-          <p className="text-[#302D53] text-sm leading-8">
-            Find the Aza app in the App Store (for Apple devices) or the Play
-            Store (for Android devices). You can search for the app or follow a
-            link to the app&apos;s page.
-          </p>
+            <p className="text-[#302D53] text-sm leading-8">
+              Find the Aza app in the App Store (for Apple devices) or the Play
+              Store (for Android devices). You can search for the app or follow
+              a link to the app&apos;s page.
+            </p>
           </div>
         </div>
         <div className="md:w-1/3 md:mt-24 container m-auto md:m-0 space-y-3">
@@ -45,11 +45,11 @@ function index() {
             </p>
           </div>
           <div className="p-2 md:p-0">
-          <p className="text-[#302D53] text-sm leading-8">
-            Install the app on your device by tapping the &#34;Install button and
-            waiting for the download process to complete. Depending on your
-            device and internet connection, this may take a few minutes.
-          </p>
+            <p className="text-[#302D53] text-sm leading-8">
+              Install the app on your device by tapping the &#34;Install button
+              and waiting for the download process to complete. Depending on
+              your device and internet connection, this may take a few minutes.
+            </p>
           </div>
         </div>
         <div className="md:w-1/3 md:mt-36 container m-auto md:m-0 space-y-3">
@@ -61,19 +61,40 @@ function index() {
               Register/Log in
             </p>
           </div>
-         <div className="p-2 md:p-0">
-         <p className="text-[#302D53] text-sm leading-8 ">
-            Once the app is installed, launch it and register for a new account
-            or log in to your existing account to access all of the features and
-            benefits of Aza.
-          </p>
-         </div>
+          <div className="p-2 md:p-0">
+            <p className="text-[#302D53] text-sm leading-8 ">
+              Once the app is installed, launch it and register for a new
+              account or log in to your existing account to access all of the
+              features and benefits of Aza.
+            </p>
+          </div>
         </div>
       </section>
-      <Image src={Arrow1} alt="step arrow 1" className=" hidden md:block absolute left-[20%] top-[40%] w-[100px]"/>
-      <Image src={Arrow2} alt="step arrow 2" className="hidden md:block absolute right-[35%] top-[45%] w-[100px]" />
-      <Image src={Arrow3} alt="step arrow 3" className=" md:hidden block absolute right-[20%] top-[45%]" />
-      <Image src={Arrow3} alt="step arrow 3" className=" md:hidden block absolute right-[20%] top-[73%] " />
+      <Image
+        src={Arrow1}
+        alt="step arrow 1"
+        className=" hidden md:block absolute left-[20%] top-[40%] w-[100px]"
+      />
+      <Image
+        src={Arrow2}
+        alt="step arrow 2"
+        className="hidden md:block absolute right-[35%] top-[45%] w-[100px]"
+      />
+      <Image
+        src={Arrow3}
+        alt="step arrow 3"
+        className=" md:hidden block absolute right-[20%] top-[45%]"
+      />
+      <Image
+        src={Arrow3}
+        alt="step arrow 3"
+        className=" md:hidden block absolute right-[20%] top-[73%] "
+      />
+     <div className="container m-auto text-center py-6">
+     <button className="bg-[#5645F5] md:w-1/4 w-1/2  border text-white text-xs font-bold px-3 py-2 rounded-md ">
+        Create an Account
+      </button>
+     </div>
     </div>
   );
 }

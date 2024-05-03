@@ -14,13 +14,13 @@ function FooterCard() {
         </h1>
         <Image src={Vector} alt="arrow vector" className="m-auto"/>
         <p className="text-white">Available on</p>
-        <div className="flex border items-center flex-col md:flex-row justify-center md:space-x-6 space-y-4 md:space-y-0">
+        <div className="flex items-center flex-col md:flex-row justify-center md:space-x-6 space-y-4 md:space-y-0">
            <Image src={Applestore} alt="apple logo"/>
           <Image src={PlayStore} alt="playstore logo"/>
           <Image src={WebLogo} alt="website logo"/>
         </div>
       </div>
-      <div className="flex flex-col items-center border">
+      <div className="flex flex-col items-center">
         <Image src={IphoneImage} alt="iphone13 photo" />
       </div>
     </div>
