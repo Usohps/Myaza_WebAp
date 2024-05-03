@@ -8,14 +8,15 @@ import Linkedin from "@/assets/linkedin.png";
 import Instagram from "@/assets/instagram.png";
 import Facebook from "@/assets/facebook.png";
 import Link from "next/link";
+import { MdClose } from "react-icons/md";
 import { AiOutlineCaretDown, AiOutlineCaretUp } from "react-icons/ai";
 function Navmodal() {
   const [open, setIsOpen] = useState(false);
   return (
-    <div className="bg-[#2A0079] min-w-full min-h-screen md:hidden top-[0] fixed right-0  ">
-      <div className="flex justify-between items-center px-4 py-20">
+    <div className="bg-[#2A0079] min-w-full min-h-screen md:hidden z-40 top-[0] fixed right-0 ">
+      <div className="flex justify-between items-center px-8 py-8">
         <Image src={MobileLogo} alt="mobile logo" />
-        <h1>Hello World</h1>
+        <button><MdClose width={18} className="text-white" /></button>
       </div>
       <div>
         <div>
@@ -53,11 +54,11 @@ function Navmodal() {
           <Link href={"#"}>Our Blog</Link>
         </li>
       </ul>
-      <div className="flex items-center justify-center gap-5">
-        <buttton className="  bg-[#5645F5] font-bold text-lg text-center rounded-lg text-[#E9E7FE] p-4 ">
+      <div className="flex sm:flex-col md:flex-row items-center justify-center px-4 gap-5">
+        <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center  border text-white text-xs font-bold px-3 py-3 rounded-md">
           Create an Account
         </buttton>
-        <buttton className=" w-1/3 text-lg font-bold rounded-lg text-center bg-[#E9E7FE] text-[#5645F5] p-4 ">
+        <buttton className=" md:w-1/4 w-1/2   font-bold text-xs  px-3 py-3 rounded-md text-center bg-[#E9E7FE] text-[#5645F5] p-4 ">
           Login
         </buttton>
       </div>
