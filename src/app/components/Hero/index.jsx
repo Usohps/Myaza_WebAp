@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import HeroIcon from "@/assets/illustration1.png";
-import HeroIcon2 from "@/assets/illustration2.png";
+import HeroIcon from "@/assets/Illustration1.png";
+import HeroIcon2 from "@/assets/Illustration2.png";
 import Pounds from "@/assets/Pounds.png";
 import Pounds1 from "@/assets/Pounds1.png";
 import Pounds2 from "@/assets/Pounds2.png";
@@ -24,9 +24,6 @@ function Hero() {
               <h1 className=" hidden md:block text-[#2A0079] md:text-4xl  font-semibold text-2xl ">
                 Experience a revolution in payments with Aza
               </h1>
-              <h1 className=" md:hidden block text-[#2A0079] md:text-3xl  font-semibold text-2xl ">
-                A new era for payment around the world
-              </h1>
             </div>
             <p className="text-[#302D53] md:block hidden leading-6">
               Aza is the future of global payment as we make it easy for
@@ -34,15 +31,20 @@ function Hero() {
               little to no cost. Our convenient platform simplifies transactions
               and removes the hassle that comes with financial management
             </p>
-            <p className="text-[#302D53] max-w-[300px] md:hidden leading-6">
+          </div>
+          <div className="pt-32">
+            <h1 className=" md:hidden block text-[#2A0079] md:text-3xl  font-semibold text-2xl ">
+                A new era for payment around the world
+              </h1>
+              <p className="text-[#302D53] max-w-[300px] md:hidden leading-6">
               Welcome to a new era for payment around the world, as Aza has made
               it a mission to provide everyone with free transfer across the
               globe, currencies exchange with no fee, and many more.
             </p>
-          </div>
+            </div>
           <Image
             src={HeroIcon2}
-            alt="illustration image2"
+            alt="illustrate image2"
             className="hidden lg:w-[300px] md:w-[200px] pt-12 md:block"
           />
         </div>
