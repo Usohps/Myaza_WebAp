@@ -9,7 +9,7 @@ function index() {
       <div className="container m-auto text-center p-4">
         <p className=" text-sm from-[#9666FF] to-[#5645F5]">Want to join us?</p>
         <div className=" md:w-1/3 m-auto">
-          <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
+          <h1 className="text-[#2A0079] md:text-3xl font-semibold text-2xl ">
             Get started in three easy steps
           </h1>
         </div>
@@ -73,25 +73,25 @@ function index() {
       <Image
         src={Arrow1}
         alt="step arrow 1"
-        className=" hidden md:block absolute left-[20%] top-[40%] w-[100px]"
+        className=" hidden md:block absolute left-[20%] top-[34%] w-[100px]"
       />
       <Image
         src={Arrow2}
         alt="step arrow 2"
-        className="hidden md:block absolute right-[35%] top-[45%] w-[100px]"
+        className="hidden md:block absolute right-[35%] top-[38%] w-[100px]"
       />
       <Image
         src={Arrow3}
         alt="step arrow 3"
-        className=" md:hidden block absolute right-[20%] top-[45%]"
+        className=" md:hidden block absolute right-[20%] top-[38%]"
       />
       <Image
         src={Arrow3}
         alt="step arrow 3"
-        className=" md:hidden block absolute right-[20%] top-[73%] "
+        className=" md:hidden block absolute right-[20%] top-[63%] "
       />
      <div className="container m-auto text-center py-6">
-     <button className="bg-[#5645F5] md:w-1/4 w-1/2  border text-white text-xs font-bold px-3 py-2 rounded-md ">
+     <button className="bg-[#5645F5] md:w-1/4 w-1/2  border text-white text-xs font-bold px-3 py-3 rounded-md ">
         Create an Account
       </button>
      </div>

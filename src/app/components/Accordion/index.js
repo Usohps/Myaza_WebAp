@@ -9,7 +9,19 @@ const Accordion = ({ items }) => {
   };
 
   return (
-    <div className="w-full">
+    <div className='container m-auto'>
+       <div className="container m-auto text-center p-4">
+        <p className=" text-sm from-[#9666FF] to-[#5645F5]">Want to join us?</p>
+        <div className=" md:w-1/3 m-auto">
+          <h1 className="text-[#2A0079] md:text-3xl text-2xl ">
+            Get started in three easy steps
+          </h1>
+        </div>
+        <p className="text-[#302D53]">
+          Setting up Aza is easy. Follow the steps below to get started
+        </p>
+      </div>
+    <div className=" md:w-1/2 px-2 m-auto py-12">
       {items.map((item, index) => (
         <div key={index} className="border-b border-gray-300">
           <div
@@ -33,6 +45,12 @@ const Accordion = ({ items }) => {
           </div>
         </div>
       ))}
+    </div>
+    <div className="container m-auto text-center py-4">
+     <button className="bg-[#5645F5] md:w-1/3 w-1/2  border text-white text-xs font-bold px-3 py-3 rounded-md ">
+     See more answered questions
+      </button>
+     </div>
     </div>
   )
 }
