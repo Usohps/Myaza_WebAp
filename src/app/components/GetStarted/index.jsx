@@ -5,10 +5,10 @@ import Arrow2 from "@/assets/step2.png";
 import Arrow3 from "@/assets/mobileicon.png";
 function index() {
   return (
-    <div className="md:max-w-[1130px] m-auto border relative">
-      <div className="container m-auto text-center p-4">
-        <p className=" text-sm from-[#9666FF] to-[#5645F5]">Want to join us?</p>
-        <div className=" md:w-1/3 m-auto">
+    <div className="md:max-w-[1130px] space-y-6 m-auto border relative">
+      <div className="container m-auto space-y-4 pt-6 text-center p-4">
+        <p className=" text-lg from-[#9666FF] to-[#5645F5]">Want to join us?</p>
+        <div className=" max-w-[300px] m-auto">
           <h1 className="text-[#2A0079] md:text-3xl font-semibold text-2xl ">
             Get started in three easy steps
           </h1>
@@ -92,7 +92,7 @@ function index() {
       />
      <div className="container m-auto text-center py-6">
      <button className="bg-[#5645F5] md:w-1/4 w-1/2  border text-white text-xs font-bold px-3 py-3 rounded-md ">
-        Create an Account
+        Download Aza app
       </button>
      </div>
     </div>

@@ -10,7 +10,7 @@ function Homepage() {
   const items = [
     {
       title: 'Section 1',
-      content: 'Content for section 1...',
+      content: `You can signup under 5 mins. Yes, we are very sure. Install our app on the Google Play Store or Apple Store or even Web. You will have an instant free wallet in your local currency and can fund very very easily.`,
     },
     {
       title: 'Section 2',
@@ -22,7 +22,7 @@ function Homepage() {
     },
   ];
   return (
-    <div>
+    <div className='space-y-6'>
        <Navbar/>
       <Hero/>
       <Products/>

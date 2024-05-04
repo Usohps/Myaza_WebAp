@@ -20,10 +20,9 @@ function Hero() {
           <Image
             src={HeroIcon}
             alt="illustration image1"
-            // width={300}
             className="hidden md:block lg:w-[300px] pt-12 md:w-[200px]"
           />
-          <div className=" text-center space-y-6 border border-red-800">
+          <div className=" text-center space-y-6">
             <div className="max-w-[350px] md:pt-32 pt-20 m-auto">
               <h1 className=" hidden md:block text-[#2A0079] md:text-4xl  font-semibold text-2xl ">
                 Experience a revolution in payments with Aza
@@ -32,7 +31,7 @@ function Hero() {
                 A new era for payment around the world
               </h1>
             </div>
-            <p className="text-[#302D53] md:block hidden leading-6">
+            <p className="text-[#302D53] max-w-[492px] md:block hidden leading-6">
               Aza is the future of global payment as we make it easy for
               everyone to send and receive money and exchange currencies at
               little to no cost. Our convenient platform simplifies transactions
@@ -44,13 +43,13 @@ function Hero() {
               globe, currencies exchange with no fee, and many more.
             </p>
             <div>
-              <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center  border text-white text-xs font-bold px-3 py-3 rounded-md">
+              <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center   text-white text-xs font-bold px-3 py-3 rounded-md">
                 Create an Account
               </buttton>
             </div>
             <div>
-              <p>Available on</p>
-              <div className="border border-red-400 flex flex-col justify-center items-center text-center">
+              <p className="text-lg">Available on</p>
+              <div className=" flex flex-col justify-center items-center text-center">
                 <Image src={Vector} alt="vector icon" />
               </div>
             </div>
