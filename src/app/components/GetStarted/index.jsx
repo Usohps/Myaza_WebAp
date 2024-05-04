@@ -5,10 +5,10 @@ import Arrow2 from "@/assets/step2.png";
 import Arrow3 from "@/assets/mobileicon.png";
 function index() {
   return (
-    <div className="md:max-w-[1130px] space-y-6 m-auto border relative">
+    <div className="md:max-w-[1130px] space-y-6 m-auto relative">
       <div className="container m-auto space-y-4 pt-6 text-center p-4">
         <p className=" text-lg from-[#9666FF] to-[#5645F5]">Want to join us?</p>
-        <div className=" max-w-[300px] m-auto">
+        <div className=" md:max-w-[300px] max-w-[250px] m-auto">
           <h1 className="text-[#2A0079] md:text-3xl font-semibold text-2xl ">
             Get started in three easy steps
           </h1>

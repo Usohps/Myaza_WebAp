@@ -18,7 +18,7 @@ function Footer() {
                 Aza Technologies is a financial platform for the people by the
                 people.
               </p>
-              <p>© 2022 Aza Technologies. All Rights Reserved.</p>
+              <p className="hidden md:block">© 2022 Aza Technologies. All Rights Reserved.</p>
             </div>
             {/* second col */}
             <div className="flex flex-col md:flex-row flex-wrap  justify-center">
