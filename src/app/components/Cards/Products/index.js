@@ -15,7 +15,7 @@ function index() {
       <section className="container m-auto px-6 space-y-4">
         <div className="container m-auto text-center space-y-4 ">
           <p className=" text-lg from-[#9666FF] to-[#5645F5]">Our products</p>
-          <div className=" md:w-1/3 w-1/2 m-auto">
+          <div className=" md:max-w-[300px] max-w-[250px] m-auto">
             <h1 className="text-[#2A0079] md:text-3xl text-2xl font-semibold ">
               A new era for payment around the world
             </h1>
