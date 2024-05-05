@@ -27,9 +27,12 @@ function Hero() {
               <h1 className=" hidden md:block text-[#2A0079] md:text-4xl  font-semibold text-2xl ">
                 Experience a revolution in payments with Aza
               </h1>
-              <h1 className=" md:hidden block text-[#2A0079] md:text-4xl  font-semibold text-2xl ">
+              <div className=" max-w-[180px] leading-10 m-auto">
+
+              <h1 className=" md:hidden block text-[#2A0079] md:text-5xl  font-bold text-2xl ">
                 A new era for payment around the world
               </h1>
+              </div>
             </div>
             <p className="text-[#302D53] max-w-[492px] md:block hidden leading-6">
               Aza is the future of global payment as we make it easy for
