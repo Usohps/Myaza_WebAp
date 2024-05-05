@@ -5,7 +5,7 @@ function Navbar() {
   const [modal, setModal] = useState(false);
   return (
     <div className="relative">
-      <div className="fixed top-0 right-0 md:h-[88px] h-[100px] w-full z-30 shadow-md bg-white py-4 sm:py-6">
+      <div className="fixed top-0 right-0 md:h-[88px] h-[100px] w-full z-30 shadow-md bg-white py-4 sm:py-9">
         <div className="">
           <div className="flex md:justify-around justify-between px-7 md:px-0 items-center">
               {/* Logo SVG*/}

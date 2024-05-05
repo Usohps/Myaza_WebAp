@@ -48,7 +48,7 @@ function Hero() {
               </buttton>
             </div>
             <div>
-              <p className="text-lg">Available on</p>
+              <p className="text-[16px] text-[#9666FF] font-bold">Available on</p>
               <div className=" flex flex-col justify-center items-center text-center">
                 <Image src={Vector} alt="vector icon" />
               </div>
