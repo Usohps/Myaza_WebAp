@@ -19,7 +19,7 @@ function index() {
       </div>
       <section className="flex container m-auto md:flex-row flex-col items-center gap-6 justify-center p-6">
         <div className="md:w-1/3 container m-auto md:m-0 space-y-3">
-          <div className="md:w-9 md:h-9 w-6 h-6 md:text-2xl text-xl p-2 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#CAC5FC] ">
+          <div className=" w-[56px] h-[56px] text-4xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#CAC5FC] ">
             <p>1</p>
           </div>
           <div>
@@ -36,7 +36,7 @@ function index() {
           </div>
         </div>
         <div className="md:w-1/3 md:mt-24 container m-auto md:m-0 space-y-3">
-          <div className="md:w-9 md:h-9 w-6 h-6 md:text-2xl text-xl p-2 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#95DBC4] ">
+          <div className=" w-[56px] h-[56px] text-4xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#95DBC4] ">
             <p>2</p>
           </div>
           <div>
@@ -53,7 +53,7 @@ function index() {
           </div>
         </div>
         <div className="md:w-1/3 md:mt-36 container m-auto md:m-0 space-y-3">
-          <div className="md:w-9 md:h-9 w-6 h-6 md:text-2xl text-xl p-2 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#FFADD2] ">
+          <div className="w-[56px] h-[56px] text-4xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#FFADD2] ">
             <p>3</p>
           </div>
           <div>

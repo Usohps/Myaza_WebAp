@@ -20,11 +20,11 @@ function Hero() {
       <div className="md:p-0 py-10">
         <div className="flex justify-center items-center w-full md:flex-row flex-col md:min-h-screen p-12 md:p-0 ">
           <div className=" text-center space-y-12">
-            <div className="  pt-20 m-auto">
+            <div className="  pt-20 md:pt-24 m-auto">
               <h1 className=" max-w-[713px] hidden md:block text-[#2A0079] md:text-7xl  font-bold ">
                 Experience a revolution in payments with Aza
               </h1>
-              <div className=" max-w-[295px] leading-10 m-auto">
+              <div className=" max-w-[295px] md:max-w-[512px] leading-10 m-auto">
                 <h1 className=" md:hidden block text-[#2A0079] md:text-5xl  font-bold text-[40px] ">
                   A new era for payment around the world
                 </h1>
@@ -41,7 +41,7 @@ function Hero() {
               it a mission to provide everyone with free transfer across the
               globe, currencies exchange with no fee, and many more.
             </p>
-            <div className="space-y-12">
+            <div className="space-y-6">
               <div>
               <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center   text-white text-xs font-bold px-3 py-3 rounded-md">
                 Create an Account
@@ -51,7 +51,7 @@ function Hero() {
                 <p className="text-[16px] text-[#9666FF] font-bold">
                   Available on
                 </p>
-                <div className=" flex flex-col justify-center items-center text-center">
+                <div className=" flex flex-col justify-center mb-2 items-center text-center">
                   <Image src={Vector} alt="vector icon" />
                 </div>
                 <div className="flex justify-center gap-2 items-center">
@@ -115,50 +115,50 @@ function Hero() {
           <Image
             src={HeroIcon2}
             alt="illustration image2"
-            className=" absolute top-0 right-0 hidden md:block"
+            className=" absolute md:max-w-[298px] top-20 right-0 hidden md:block"
           />
         </div>
         <Image
           src={HeroIcon}
           alt="illustration image1"
-          className="absolute top-20  left-0 hidden md:block"
+          className="absolute top-20 md:max-w-[280px]  left-0 hidden md:block"
         />
       </div>
       <Image
         src={Pounds}
         alt="illustration image2"
-        className="md:block absolute top-12  left-0"
+        className="md:block absolute w-[100px] md:w-[100] top-12  left-0"
       />
       <Image
         src={Pounds1}
         alt="illustration image2"
         // width={100}
-        className=" absolute top-[250px] left-0"
+        className=" absolute top-[460px] md:top-52 w-[50px] md:w-[100px] left-0"
       />
       <Image
         src={Pounds2}
         alt="illustration image2"
-        className=" w-[150px] absolute bottom-0 left-0 md:block"
+        className=" w-[100px] md:w-[150px] absolute bottom-0 left-0 md:block"
       />
       <Image
         src={Pounds3}
         alt="illustration image2"
-        className="absolute top-12 right-0 md:block"
+        className="absolute w-[100px] md:w-[120px] top-12 right-0 md:block"
       />
       <Image
         src={USDblur}
         alt="illustration image2"
-        className="hidden absolute top-48  right-0 md:block"
+        className="hidden w-[100px] md:w-[120px] absolute top-48  right-0 md:block"
       />
       <Image
         src={NGNblur}
         alt="illustration image2"
-        className=" absolute bottom-0 right-0 md:block"
+        className=" absolute w-[100px] md:w-[100px] bottom-0 right-0 md:block"
       />
-      <div className=" absolute top-[275px] md:hidden left-0">
+      <div className=" absolute top-[410px] md:hidden left-10">
         <Image src={MobileIcon1} alt="mobile background icon" />
       </div>
-      <div className=" absolute top-[150px] md:hidden right-0">
+      <div className=" absolute top-[100px] md:hidden right-0">
         <Image src={MobileIcon2} alt="mobile background icon" />
       </div>
     </div>

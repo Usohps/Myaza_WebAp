@@ -78,21 +78,21 @@ function Navmodal({ setModal, modal }) {
           </svg>
         </button>
       </div>
-      <div className="border pl-4 space-y-12 ">
+      <div className=" pl-4 space-y-12 ">
         <div>
           <button
-            className="flex gap-4  pl-0 text-white justify-between items-center"
+            className="flex gap-4  pl-0 text-[#D3CFFC] justify-between items-center"
             onClick={() => setIsOpen((prev) => !prev)}
           >
-            <h1 className="text-2xl font-semibold">Our Products</h1>
+            <h1 className="text-lg font-medium">Our Products</h1>
             {open ? (
-              <AiOutlineCaretUp className="text-white" />
+              <AiOutlineCaretUp className="text-[#D3CFFC]" />
             ) : (
-              <AiOutlineCaretDown className="text-white" />
+              <AiOutlineCaretDown className="text-[#D3CFFC]" />
             )}
           </button>
           {open && (
-            <div className="text-white space-y-4 text-2xl">
+            <div className="text-[#D3CFFC] space-y-4 text-sm">
               <div className="">
                 <Link href={"#"}>
                   <p className="">Virtual Cards</p>
@@ -116,34 +116,34 @@ function Navmodal({ setModal, modal }) {
             </div>
           )}
         </div>
-        <ul className=" w-full  md:max-w-[300px] text-white   text-2xl space-y-12">
+        <ul className=" w-full  md:max-w-[300px] text-[#D3CFFC]   text-lg space-y-12">
           <li>
             <Link href={"#"}>
-              <h1 className="text-2xl  font-semibold">About Us</h1>
+              <h1 className=" font-medium">About Us</h1>
             </Link>
           </li>
           <li>
             <Link href={"#"}>
-              <h1 className="text-2xl  font-semibold">FAQs</h1>
+              <h1 className="  font-medium">FAQs</h1>
             </Link>
           </li>
           <li>
             <Link href={"#"}>
-              <h1 className="text-2xl  font-semibold">Our Blog</h1>
+              <h1 className=" font-medium">Our Blog</h1>
             </Link>
           </li>
         </ul>
       </div>
       <div className="flex sm:flex-col md:flex-row items-center  justify-center px-4 py-12 gap-5">
-        <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center  border text-white text-xs font-bold px-3 py-3 rounded-md">
+        <buttton className="  bg-[#5645F5] md:w-1/4 w-1/2 text-center text-white text-xs font-bold px-3 py-3 rounded-md">
           Create an Account
         </buttton>
         <buttton className=" md:w-1/4 w-1/2  font-bold text-xs  px-3 py-3 rounded-md text-center bg-[#E9E7FE] text-[#5645F5] p-4 ">
           Login
         </buttton>
       </div>
-      <div className="py-8 px-4 text-[#E9E7FE] ">
-        <h1 className="text-2xl  font-semibold mb-3">Contact</h1>
+      <div className="py-8 px-4 text-[#D3CFFC] ">
+        <h1 className="text-lg  font-semibold mb-3">Contact</h1>
         <div className="space-y-3">
           <div className="flex items-center text-xl gap-2">
             <p>Hello@aza.co</p>
@@ -171,7 +171,7 @@ function Navmodal({ setModal, modal }) {
             </div>
           </div>
         </div>
-        <div className="text-center">
+        <div className="text-center absolute bottom-24 left-[30%]">
           <p>Designed with ❤️ & Caprisun</p>
         </div>
       </div>
