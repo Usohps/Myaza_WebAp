@@ -19,7 +19,7 @@ function index() {
       </div>
       <section className="flex container m-auto md:flex-row flex-col items-center gap-6 justify-center p-6">
         <div className="md:w-1/3 container m-auto md:m-0 space-y-3">
-          <div className=" w-[56px] h-[56px] text-4xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#CAC5FC] ">
+          <div className=" w-[56px] h-[56px] text-3xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#CAC5FC] ">
             <p>1</p>
           </div>
           <div>
@@ -27,8 +27,8 @@ function index() {
               Find the Aza app
             </p>
           </div>
-          <div className="p-2 md:p-0">
-            <p className="text-[#302D53] text-sm leading-8">
+          <div className="p-2 container md:max-w-[322px] border">
+            <p className="text-[#302D53] text-sm leading-6 px-2">
               Find the Aza app in the App Store (for Apple devices) or the Play
               Store (for Android devices). You can search for the app or follow
               a link to the app&apos;s page.
@@ -36,7 +36,7 @@ function index() {
           </div>
         </div>
         <div className="md:w-1/3 md:mt-24 container m-auto md:m-0 space-y-3">
-          <div className=" w-[56px] h-[56px] text-4xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#95DBC4] ">
+          <div className=" w-[56px] h-[56px] text-3xl  p-4 font-extrabold flex items-center justify-center rounded-full text-[#2A0079] bg-[#95DBC4] ">
             <p>2</p>
           </div>
           <div>
@@ -44,8 +44,8 @@ function index() {
               Install Aza app
             </p>
           </div>
-          <div className="p-2 md:p-0">
-            <p className="text-[#302D53] text-sm leading-8">
+          <div className="p-2  md:max-w-[322px] md:min-h-[120px] border">
+            <p className="text-[#302D53] text-sm leading-6">
               Install the app on your device by tapping the &#34;Install button
               and waiting for the download process to complete. Depending on
               your device and internet connection, this may take a few minutes.
@@ -61,8 +61,8 @@ function index() {
               Register/Log in
             </p>
           </div>
-          <div className="p-2 md:p-0">
-            <p className="text-[#302D53] text-sm leading-8 ">
+          <div className="p-2 md:p-0 md:max-w-[400px]">
+            <p className="text-[#302D53] text-sm leading-6 ">
               Once the app is installed, launch it and register for a new
               account or log in to your existing account to access all of the
               features and benefits of Aza.

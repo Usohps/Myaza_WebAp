@@ -142,7 +142,7 @@ function Navmodal({ setModal, modal }) {
           Login
         </buttton>
       </div>
-      <div className="py-8 px-4 text-[#D3CFFC] ">
+      <div className=" px-4 text-[#D3CFFC] ">
         <h1 className="text-lg  font-semibold mb-3">Contact</h1>
         <div className="space-y-3">
           <div className="flex items-center text-xl gap-2">
@@ -170,9 +170,9 @@ function Navmodal({ setModal, modal }) {
               </a>
             </div>
           </div>
-        </div>
-        <div className="text-center absolute bottom-24 left-[30%]">
+        <div className="text-center">
           <p>Designed with ❤️ & Caprisun</p>
+        </div>
         </div>
       </div>
     </div>

@@ -127,7 +127,7 @@ function Hero() {
       <Image
         src={Pounds}
         alt="illustration image2"
-        className="md:block absolute w-[100px] md:w-[100] top-12  left-0"
+        className="md:block absolute w-[100px] md:w-[100] top-10  left-0"
       />
       <Image
         src={Pounds1}
@@ -143,7 +143,7 @@ function Hero() {
       <Image
         src={Pounds3}
         alt="illustration image2"
-        className="absolute w-[100px] md:w-[120px] top-12 right-0 md:block"
+        className="absolute w-[100px] md:w-[120px] top-8 right-0 md:block"
       />
       <Image
         src={USDblur}
@@ -153,9 +153,9 @@ function Hero() {
       <Image
         src={NGNblur}
         alt="illustration image2"
-        className=" absolute w-[100px] md:w-[100px] bottom-0 right-0 md:block"
+        className=" absolute w-[100px] md:w-[80px] bottom-0 right-0 md:block"
       />
-      <div className=" absolute top-[410px] md:hidden left-10">
+      <div className=" absolute top-[400px] md:hidden left-0">
         <Image src={MobileIcon1} alt="mobile background icon" />
       </div>
       <div className=" absolute top-[100px] md:hidden right-0">
